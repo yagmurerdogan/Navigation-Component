@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/my_nav">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/firstFragment">
 
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.hepsiburada.navigationcomponent.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.hepsiburada.navigationcomponent.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
 </navigation>
