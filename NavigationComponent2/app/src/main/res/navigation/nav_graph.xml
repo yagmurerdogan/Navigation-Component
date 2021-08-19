@@ -35,5 +35,12 @@
         android:id="@+id/welcomeFragment"
         android:name="com.yagmurerdogan.navigationcomponent2.WelcomeFragment"
         android:label="fragment_welcome"
-        tools:layout="@layout/fragment_welcome" />
+        tools:layout="@layout/fragment_welcome" >
+        <argument
+            android:name="username"
+            app:argType="string" />
+        <argument
+            android:name="password"
+            app:argType="string" />
+    </fragment>
 </navigation>
