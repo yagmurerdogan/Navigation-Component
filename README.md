@@ -51,6 +51,8 @@ This project contains 2 fragments and 1 activity 👽
     </fragment>
 </navigation>
 
+👇🏼 As you can see below, **First fragment has home icon.** This means that we will see the First fragment on screen when app is opened. If we want to make Second fragment as home page, we can do it easily with right click on it and select **"Set as Start Destination"** button.
+
 <img width="669" alt="Screen Shot 2021-08-18 at 16 08 43" src="https://user-images.githubusercontent.com/47380312/129907783-7acf5114-0681-4b15-a568-5d56abdbf26d.png">
 
 - **fragment_first.xml**
