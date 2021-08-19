@@ -2,4 +2,7 @@
     <string name="app_name">Navigation Component 2</string>
     <string name="home_screen">Home Screen</string>
     <string name="login_button">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_button">Confirm</string>
 </resources>
