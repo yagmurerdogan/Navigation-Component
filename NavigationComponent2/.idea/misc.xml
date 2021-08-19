@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.12222222222222222" />
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.12222222222222222" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
       </map>
     </option>
   </component>
