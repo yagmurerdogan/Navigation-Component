@@ -5,11 +5,11 @@
     <item
         android:id="@+id/termsAndConditions"
         android:title="Terms &amp; Conditions"
-        app:showAsAction="never"/>
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/settingsFragment"
-        android:title="@string/settings"
         android:menuCategory="secondary"
-        app:showAsAction="never"/>
+        android:title="@string/settings"
+        app:showAsAction="never" />
 </menu>
