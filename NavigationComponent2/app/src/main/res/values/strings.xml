@@ -5,4 +5,6 @@
     <string name="username_hint">Username</string>
     <string name="password_hint">Password</string>
     <string name="confirm_button">Confirm</string>
+    <string name="ok_button">Okay</string>
+    <string name="successfully_logged_in_text">You successfully logged in!</string>
 </resources>
