@@ -33,7 +33,7 @@ This project contains 1 activity, 6 fragments, bottom naigation and navigation d
 
 <img width="694" alt="Screen Shot 2021-08-23 at 14 06 43" src="https://user-images.githubusercontent.com/47380312/130437562-66161b09-a97f-42a6-b2cb-f323cc977800.png">
 
- ```
+ ```xml
  <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -126,7 +126,7 @@ This project contains 1 activity, 6 fragments, bottom naigation and navigation d
   
   
 - **drawer_bottom_nav_menu.xml**
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -145,7 +145,7 @@ This project contains 1 activity, 6 fragments, bottom naigation and navigation d
 
 
 - **options_menu.xml**
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
@@ -182,6 +182,7 @@ This project contains 2 fragments and 1 activity 👽
 <img width="416" alt="Screen Shot 2021-08-18 at 16 30 34" src="https://user-images.githubusercontent.com/47380312/129907107-d0271930-b09a-400a-a59f-1b2e101afdbd.png">
 
 - **my_nav.xml**
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -216,13 +217,14 @@ This project contains 2 fragments and 1 activity 👽
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
 </navigation>
+```
 
 👇🏼 As you can see below, **First fragment has home icon.** This means that we will see the First fragment on screen when app is opened. If we want to make Second fragment as home page, we can do it easily with right click on it and select **"Set as Start Destination"** button.
 
 <img width="669" alt="Screen Shot 2021-08-18 at 16 08 43" src="https://user-images.githubusercontent.com/47380312/129907783-7acf5114-0681-4b15-a568-5d56abdbf26d.png">
 
 - **fragment_first.xml**
- ```
+ ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -252,7 +254,7 @@ This project contains 2 fragments and 1 activity 👽
  ```
 - **fragment_second.xml**
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -281,7 +283,7 @@ This project contains 2 fragments and 1 activity 👽
 </androidx.constraintlayout.widget.ConstraintLayout>
  ```
 - **FirstFragment.kt**
- ```
+ ```kotlin
  class FirstFragment : Fragment() {
 
     override fun onCreateView(
@@ -301,7 +303,7 @@ This project contains 2 fragments and 1 activity 👽
  ```
 
 - **SecondFragment.kt**
- ```
+ ```kotlin
  class FirstFragment : Fragment() {
 
     override fun onCreateView(
