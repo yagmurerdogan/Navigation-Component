@@ -1,4 +1,4 @@
-# 👩🏻‍💻 Navigation Component Projects
+<h1 align="center">👩🏻‍💻 Navigation Component Projects</h1>
 
  
 ## [2-Navigation Component 2 Project](https://github.com/yagmurerdogan/Navigation-Component/tree/master/NavigationComponent2) ☀️
@@ -8,6 +8,7 @@ This project contains 1 activity, 6 fragments, bottom naigation and navigation d
 ⭐️ [Watch YouTube Tutorial!](https://www.youtube.com/playlist?list=PLrnPJCHvNZuCamMFswP597mUF-whXoAA6)
 
 ## Preview 👀
+
 <table>
   <tr>
     <td>🌸 Bottom Navigation </td>  
@@ -26,7 +27,7 @@ This project contains 1 activity, 6 fragments, bottom naigation and navigation d
     <td valign="top"><img src="https://user-images.githubusercontent.com/47380312/130437175-d175143e-4f1f-4378-a59b-853d8b7b4efe.gif" width="250" height="500"></td>
   </tr>
  </table>
- 
+
 
 - **nav_graph.xml**
 
